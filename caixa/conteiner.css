@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.cabecalho{
+    height: 150px;
+    background-color: #06202B;
+    color: #fff;
+
+}
+
+.conteudo {
+   min-height:calc(100vh - 150px - 200px) ; 
+    background-color:#077A7D;
+}
+.rodape{
+    height: 200px;
+    background-color: black ;
+}
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+    border: solid;
+    padding: 15px;
+    overflow: auto;
+}
+.conteudo .menu{
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 15px;
+    background-color:#077A7D ;
+    min-height: calc(100vh - 200px - 150px);
+}
+.conteudo .artigo{
+    position: relative;
+    float: left;
+    padding: 15px;
+    width: 75%;
+
+}
